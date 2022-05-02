@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.art">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/applogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".mine.ModifyShareActivity" />
+        <activity android:name=".util.WebViewUtil.UrlForArtistActivity" />
+        <activity android:name=".util.WebViewUtil.UrlForArtworkActivity" />
+        <activity android:name=".chooseLike.LikeActivity" />
+        <activity android:name=".aboutUs.AboutUsActivity" />
+        <activity android:name=".museumPlan.plan.CalendarMuseumActivity"
+            android:theme="@style/AppThemeForLight"/>
+        <activity android:name=".museumPlan.unUsed.MuseumPlanActivity" />
+        <activity android:name=".shareContent.ShareContentActivity" />
+        <activity android:name=".theme.artTheme.ThemeForArtActivity" />
+        <activity android:name=".theme.moreTheme.TagsForMoreActivity" />
+        <activity android:name=".theme.museumTheme.TagsForMuseumActivity" />
+        <activity android:name=".theme.auctionTheme.TagsForAuctionActivity" />
+        <activity android:name=".theme.artTheme.TagsForArtActivity" />
+        <activity android:name=".createShare.CreateShareActivity" />
+        <activity android:name=".myDrawing.MyDrawingActivity" />
+        <activity android:name=".util.WebViewUtil.UrlForSearchActivity" />
+        <activity android:name=".museumDetail.MuseumDetailActivity"/>
+        <activity android:name=".util.WebViewUtil.UrlForCommonActivity" />
+        <activity android:name=".shouye.news.NewsContentActivity" />
+        <activity android:name=".scan.ScanActivity" />
+        <activity android:name=".scan.CreateQRActivity" />
+        <activity
+            android:name="com.king.zxing.CaptureActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/CaptureTheme" />
+        <activity android:name=".mine.MineActivity" />
+        <activity android:name=".find.findActivity" />
+        <activity android:name=".display.DisplayActivity" />
+        <activity android:name=".search_example.SearchActivity" />
+        <activity android:name=".initApp.LoadingPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".initApp.GuideActivity" />
+        <activity android:name=".shouye.museum.MuseumActivity" />
+        <activity android:name=".shouye.artwork.ArtworkActivity" />
+        <activity android:name=".shouye.artist.ArtistActivity" />
+        <activity android:name=".shouye.news.NewsActivity" />
+        <activity android:name=".shouye.ShouYeActivity" />
+        <activity android:name=".login.CreateAccountActivity" />
+        <activity android:name=".login.LoginActivity" />
+    </application>
+
+</manifest>

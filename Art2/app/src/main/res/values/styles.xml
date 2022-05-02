@@ -1,0 +1,22 @@
+<resources>
+    <style name="AppThemeForLight" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/color4</item>
+        <item name="colorPrimaryDark">@color/color4</item>
+        <item name="colorAccent">@color/color4</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/color4</item>
+        <item name="colorPrimaryDark">@color/color4</item>
+        <item name="colorAccent">@color/color4</item>
+    </style>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/color8</item>
+        <item name="colorControlActivated">@color/color7</item>
+    </style>
+</resources>

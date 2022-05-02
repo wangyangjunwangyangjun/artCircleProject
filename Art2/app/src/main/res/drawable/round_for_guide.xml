@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/color8"> <!--波纹颜色-->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/color7"/>
+            <corners android:radius="5dp"/>
+            <padding android:bottom="3dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp"/>
+            <stroke android:width="0.1dp"
+                android:color="@color/color4"
+                android:dashWidth="0.1dp"/>
+        </shape>
+    </item>
+</ripple>

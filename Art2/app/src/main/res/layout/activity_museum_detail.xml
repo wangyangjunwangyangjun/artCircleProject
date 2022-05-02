@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color1">
+    <com.github.florent37.materialviewpager.MaterialViewPager
+        android:id="@+id/materialViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:viewpager_animatedHeaderImage="true"
+        app:viewpager_color="@color/color1"
+        app:viewpager_disableToolbar="false"
+        app:viewpager_displayToolbarWhenSwipe="true"
+        app:viewpager_enableToolbarElevation="true"
+        app:viewpager_headerAlpha="1.0"
+        app:viewpager_headerHeight="190dp"
+        app:viewpager_hideLogoWithFade="false"
+        app:viewpager_hideToolbarAndTitle="false"
+        app:viewpager_logo="@layout/header_logo3"
+        app:viewpager_logoMarginTop="70dp"
+        app:viewpager_parallaxHeaderFactor="1.5"
+        app:viewpager_transparentToolbar="false"
+        app:viewpager_pagerTitleStrip="@layout/material_view_pager_pagertitlestrip_standard"/>
+    <com.example.art.util.likeButton.LikeButton
+        android:id="@+id/heart_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:icon_size="22dp"
+        app:anim_scale_factor="3"
+        app:icon_type="heart"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/customgap"
+        android:layout_marginEnd="@dimen/customgap" />
+</androidx.constraintlayout.widget.ConstraintLayout>

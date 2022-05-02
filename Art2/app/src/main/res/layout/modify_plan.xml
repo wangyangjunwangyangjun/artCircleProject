@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/container1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:id="@+id/note1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:text="@string/modifyPlan"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:padding="5dp"
+                    app:layout_constraintTop_toBottomOf="@id/note1">
+                    <TextView
+                        android:id="@+id/note2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/modify_plan_text_bg"
+                        android:padding="18dp"
+                        android:textColor="@color/color4"
+                        android:text="计划时间："
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                    <TextView
+                        android:id="@+id/time"
+                        android:hint="请选择计划的时间 >"
+                        android:textSize="14dp"
+                        android:textColorHint="@color/color3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:layout_marginRight="10dp"
+                        app:layout_constraintBottom_toBottomOf="@id/note2"
+                        app:layout_constraintRight_toRightOf="@id/note2"
+                        app:layout_constraintTop_toTopOf="@id/note2" />
+                    <TextView
+                        android:id="@+id/note3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/modify_plan_text_bg"
+                        android:padding="18dp"
+                        android:textColor="@color/color4"
+                        android:text="博物馆："
+                        app:layout_constraintLeft_toLeftOf="@id/note2"
+                        app:layout_constraintTop_toBottomOf="@id/note2" />
+                    <TextView
+                        android:id="@+id/museum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:textColorHint="@color/color3"
+                        android:hint="请选择要去的博物馆 >"
+                        android:layout_marginRight="10dp"
+                        android:gravity="right"
+                        app:layout_constraintBottom_toBottomOf="@id/note3"
+                        app:layout_constraintRight_toRightOf="@id/note3"
+                        app:layout_constraintTop_toTopOf="@id/note3" />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:id="@+id/note"
+                        android:textColor="@color/color4"
+                        android:background="@drawable/modify_plan_text_bg"
+                        android:padding="18dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:hint="请输入计划的备注 ( 最多不超过50个字 ) "
+                        android:textSize="14dp"
+                        app:layout_constraintTop_toBottomOf="@id/note3"
+                        app:layout_constraintLeft_toLeftOf="@id/note3"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

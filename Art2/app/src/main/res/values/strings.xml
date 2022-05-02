@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">艺术圈</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="getstarted">开始吧！</string>
+    <string name="createaccount">创建账号</string>
+    <string name="needhelp">需要帮助</string>
+    <string name="thirdPartyLogin">----------  第三方登录  ----------</string>
+    <string name="name">用户名</string>
+    <string name="email">邮箱</string>
+    <string name="continueT">继续</string>
+    <string name="artist">艺术家</string>
+    <string name="artwork">艺术品</string>
+    <string name="museum">博物馆</string>
+    <string name="search">搜索</string>
+    <string name="thetheme">主题</string>
+    <string name="more">更多</string>
+    <string name="news">时事新闻</string>
+    <string name="mine">我的主页</string>
+    <string name="artist_">艺术家推荐</string>
+    <string name="artwork_">艺术品推荐</string>
+    <string name="home">主页</string>
+    <string name="plan">计划</string>
+    <string name="close">关闭</string>
+    <string name="backup">备份</string>
+    <string name="recover">恢复</string>
+    <string name="about_us">关于我们</string>
+    <string name="loginout">登出</string>
+    <string name="login">登录</string>
+    <string name="clickhere">点击此处</string>
+    <string name="museum_">博物馆推荐</string>
+    <string name="latest">最新</string>
+    <string name="history">我的历史</string>
+    <string name="author">作者</string>
+    <string name="concern">关注</string>
+    <string name="scan">扫描</string>
+    <string name="qr_code">二维码</string>
+    <string name="drawing_board">涂鸦</string>
+
+    <string name="original_title">Original Title:</string>
+    <string name="date">Date:</string>
+    <string name="style">Style:</string>
+    <string name="genre">Genre:</string>
+    <string name="media">Media:</string>
+    <string name="location">Location:</string>
+    <string name="dimensions">Dimensions:</string>
+
+    <string name="article">Article</string>
+    <string name="wikiarticle">Wikipedia article</string>
+    <string name="share">Share:</string>
+    <string name="tags_note">Tags:</string>
+    <string name="related_artworks">Related Artworks</string>
+
+    <!--    搜索-->
+    <string name="action_voice_rec">action voice rec</string>
+    <string name="action_location">action location</string>
+    <string name="action_taxi">action taxi</string>
+    <string name="action_change_colors">change style</string>
+    <string name="color_info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,</string>
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_example_with_sliding_list">Sliding list</string>
+    <string name="action_example_sliding_search_bar">Sliding search view</string>
+    <string name="random_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dictum lorem ac leo tincidunt varius. Donec lacinia elementum lobortis. Nulla pellentesque cursus sem. Aliquam vestibulum lacinia metus, ac faucibus nunc fringilla a. Nullam mauris lorem, pharetra vitae mollis in, gravida a mi. Sed eu elit vitae lorem vestibulum volutpat eget blandit tortor. Duis dignissim porta dolor, ut porttitor lectus pretium vitae.  Phasellus quis augue ante. Nam tempus egestas consectetur. Praesent nec placerat nisi, non malesuada dolor. Duis malesuada semper lorem, nec feugiat nisl. Nulla facilisi. Sed aliquam ex ut turpis malesuada dignissim. Nam risus mi, dapibus maximus nisl ac, efficitur suscipit ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec malesuada nisl eget faucibus mollis. Nam sit amet mauris a metus euismod porttitor et sed mi. Nunc vel vehicula arcu, eu lacinia odio. Fusce id lacus vel dui blandit maximus id eget neque.  Sed eu porta diam. Nunc vitae egestas diam. Donec semper hendrerit laoreet. Aliquam quis aliquam nulla. Aenean euismod lacus sed pretium scelerisque. Suspendisse mollis arcu at ligula pulvinar, nec elementum velit fermentum. Sed sed mollis ligula, vel eleifend metus. Sed magna metus, tempus ut bibendum at, aliquam at nisi. Integer nec fringilla mauris, vel viverra augue. Morbi eu mi mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.  Proin molestie ante nec tristique finibus. In hac habitasse platea dictumst. Maecenas sed risus condimentum, feugiat velit ac, dictum erat. Curabitur pharetra ac nulla sed lacinia. Curabitur rutrum dolor vestibulum magna ultrices congue ac sed libero. Nam semper mi a neque ultricies commodo. In condimentum in odio in porttitor. Suspendisse maximus vestibulum nunc, vel gravida dui fermentum eu. Morbi sed orci augue. Praesent dolor justo, cursus sit amet ex et, posuere mattis lorem. Donec in efficitur orci. Nam semper odio a interdum aliquet. Vivamus vitae luctus purus, in fermentum diam. Pellentesque quis orci vitae est placerat faucibus. Maecenas non gravida ipsum, sit amet ultrices sem. Phasellus fringilla ultrices erat, vel aliquam sapien varius ac.  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam porta semper sapien. Pellentesque volutpat porta sapien, ut tristique metus. In hac habitasse platea dictumst. Aenean pharetra molestie dapibus. Nunc sed dolor elit. Quisque eget enim non tellus volutpat mollis a id dolor. Aenean sit amet sem sem. Nunc viverra efficitur lorem. Quisque quis metus dictum, mattis ante non, pellentesque sapien. Integer quis lectus feugiat, consectetur nulla quis, viverra nulla. Curabitur eu sodales nisl. Morbi non enim pellentesque, lobortis est id, dignissim mauris. Nulla et tempor lectus.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dictum lorem ac leo tincidunt varius. Donec lacinia elementum lobortis. Nulla pellentesque cursus sem. Aliquam vestibulum lacinia metus, ac faucibus nunc fringilla a. Nullam mauris lorem, pharetra vitae mollis in, gravida a mi. Sed eu elit vitae lorem vestibulum volutpat eget blandit tortor. Duis dignissim porta dolor, ut porttitor lectus pretium vitae.  Phasellus quis augue ante. Nam tempus egestas consectetur. Praesent nec placerat nisi, non malesuada dolor. Duis malesuada semper lorem, nec feugiat nisl. Nulla facilisi. Sed aliquam ex ut turpis malesuada dignissim. Nam risus mi, dapibus maximus nisl ac, efficitur suscipit ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec malesuada nisl eget faucibus mollis. Nam sit amet mauris a metus euismod porttitor et sed mi. Nunc vel vehicula arcu, eu lacinia odio. Fusce id lacus vel dui blandit maximus id eget neque.  Sed eu porta diam. Nunc vitae egestas diam. Donec semper hendrerit laoreet. Aliquam quis aliquam nulla. Aenean euismod lacus sed pretium scelerisque. Suspendisse mollis arcu at ligula pulvinar, nec elementum velit fermentum. Sed sed mollis ligula, vel eleifend metus. Sed magna metus, tempus ut bibendum at, aliquam at nisi. Integer nec fringilla mauris, vel viverra augue. Morbi eu mi mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.  Proin molestie ante nec tristique finibus. In hac habitasse platea dictumst. Maecenas sed risus condimentum, feugiat velit ac, dictum erat. Curabitur pharetra ac nulla sed lacinia. Curabitur rutrum dolor vestibulum magna ultrices congue ac sed libero. Nam semper mi a neque ultricies commodo. In condimentum in odio in porttitor. Suspendisse maximus vestibulum nunc, vel gravida dui fermentum eu. Morbi sed orci augue. Praesent dolor justo, cursus sit amet ex et, posuere mattis lorem. Donec in efficitur orci. Nam semper odio a interdum aliquet. Vivamus vitae luctus purus, in fermentum diam. Pellentesque quis orci vitae est placerat faucibus. Maecenas non gravida ipsum, sit amet ultrices sem. Phasellus fringilla ultrices erat, vel aliquam sapien varius ac.  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam porta semper sapien. Pellentesque volutpat porta sapien, ut tristique metus. In hac habitasse platea dictumst. Aenean pharetra molestie dapibus. Nunc sed dolor elit. Quisque eget enim non tellus volutpat mollis a id dolor. Aenean sit amet sem sem. Nunc viverra efficitur lorem. Quisque quis metus dictum, mattis ante non, pellentesque sapien. Integer quis lectus feugiat, consectetur nulla quis, viverra nulla. Curabitur eu sodales nisl. Morbi non enim pellentesque, lobortis est id, dignissim mauris. Nulla et tempor lectus.</string>
+    <string name="action_example_scrolling_search_bar">scrolling behavior</string>
+    <string name="editText_title_hint">点击输入文章的标题......</string>
+    <string name="TextView_title_note">文章标题</string>
+    <string name="create">发布</string>
+    <string name="titleForCreateShare">吱 “ 艺 ” 声</string>
+    <string name="editText_content_hint">点击输入文章的内容（至少30个字，最多300字）......</string>
+    <string name="TextView_content_note">文章内容</string>
+    <string name="textView_content_note">上传封面</string>
+
+    <string name="themeArtForType1">绘画类</string>
+    <string name="themeArtForType2">青铜器</string>
+    <string name="themeArtForType3">书籍类</string>
+    <string name="themeArtForType4">雕塑类</string>
+    <string name="themeArtForType5">织印染绣类</string>
+    <string name="themeArtForType6">票据类</string>
+    <string name="themeArtForType7">书法类</string>
+    <string name="themeArtForType8">服饰类</string>
+    <string name="themeArtForType9">文房四宝</string>
+    <string name="themeArtForType10">家具类</string>
+    <string name="themeArtForType11">摄影类</string>
+    <string name="themeArtForType12">玉器类</string>
+    <string name="themeArtForType13">珠宝首饰类</string>
+    <string name="themeArtForType14">传统工艺品</string>
+    <string name="themeArtForType15">陶瓷类</string>
+
+    <string name="themeMuseumForType1">人气</string>
+    <string name="note">添加计划</string>
+    <string name="time">点击选择出发时间 ></string>
+    <string name="noteTitle">备注</string>
+    <string name="timeTitle">出发时间</string>
+    <string name="noteHint">随便写点啥吧...</string>
+    <string name="positiveBtn">确认</string>
+    <string name="negativeBtn">取消</string>
+    <string name="comments">评论</string>
+    <string name="sendComment">发一条友善的评论</string>
+    <string name="send">发送</string>
+    <string name="userName">用户名</string>
+    <string name="expert">专家</string>
+    <string name="comment">评论</string>
+    <string name="modifyPlan">修改计划</string>
+    <string name="finish">完成</string>
+    <string name="modify_share">修改动态</string>
+    <string name="essay_cover">文章封面</string>
+    <string name="artistCollection">艺术家收藏</string>
+    <string name="artworkCollection">艺术品收藏</string>
+    <string name="museumCollection">博物馆收藏</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/color4</color>
+    <color name="colorPrimaryDark">@color/color4</color>
+    <color name="colorAccent">@color/color4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+<!--    <color name="color1">#363062</color>-->
+<!--    <color name="color2">#d8b9c3</color>-->
+<!--    <color name="color3">#827397</color>-->
+<!--    <color name="color4">#4d4c7d</color>-->
+    <color name="color4">#3A3A3A</color>
+    <color name="color3">#979696</color>
+    <color name="color2">#fafafa</color>
+    <color name="color1">#fafafa</color>
+<!--    <color name="color4">#f4eeff</color>-->
+<!--    <color name="color3">#dcd6f7</color>-->
+<!--    <color name="color2">#a6b1e1</color>-->
+<!--    <color name="color1">#424874</color>-->
+<!--    https://colors.eva.design/-->
+<!--    700-->
+    <color name="color5">#F4F4F3</color>
+    <color name="color7">#8ad4b3</color>
+    <color name="color8">#BFF2D1</color>
+    <color name="color5_1">#EBEBEB</color>
+    <color name="color6">#DFDFDE</color>
+
+<!--    <color name="select_mode_bg">#2E97FF</color>-->
+    <color name="mode_bg">#B9BDC5</color>
+    <color name="drawingColor1">#FF0000</color>
+    <color name="drawingColor2">#FF7F00</color>
+    <color name="drawingColor3">#FFFF00</color>
+    <color name="drawingColor4">#00FF00</color>
+    <color name="drawingColor5">#00FFFF</color>
+    <color name="drawingColor6">#0000FF</color>
+    <color name="drawingColor7">#8B00FF</color>
+    <color name="drawingColor8">#DFDFDE</color>
+    <color name="drawingColor9">#000000</color>
+    <color name="drawingColor10">#740941</color>
+    <color name="drawingColor11">#e1a5fa</color>
+
+    <color name="black">#000</color>
+
+    <color name="favorite">#f6dfeb</color>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/color6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/customgap">
+    <ImageView
+        android:id="@+id/cover"
+        android:layout_width="155dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+<!--    <com.example.art.util.likeButton.LikeButton-->
+<!--        android:id="@+id/heart_button"-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        app:icon_size="22dp"-->
+<!--        app:anim_scale_factor="3"-->
+<!--        app:icon_type="heart"-->
+<!--        android:layout_marginTop="@dimen/customgap"-->
+<!--        android:layout_marginLeft="@dimen/customgap"-->
+<!--        app:layout_constraintLeft_toLeftOf="@id/cover"-->
+<!--        app:layout_constraintTop_toTopOf="@id/cover" />-->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/color4"
+        android:background="@drawable/ripple_bg"
+        android:layout_marginBottom="@dimen/gap"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+        android:id="@+id/museum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:textColor="@color/color4"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@drawable/ripple_bg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="10dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

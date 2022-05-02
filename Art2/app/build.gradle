@@ -1,0 +1,92 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    compileSdkVersion 30
+    buildToolsVersion "30.0.0"
+    defaultConfig {
+        applicationId "com.example.art"
+        minSdkVersion 22
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.google.android.material:material:1.1.0'
+
+    implementation 'com.android.support:design:x.+'
+    //二维码扫描
+    implementation 'com.king.zxing:zxing-lite:1.1.7-androidx'
+
+    //https://github.com/Manabu-GT/ExpandableTextView
+    implementation 'com.ms-square:expandableTextView:0.1.4'
+    //https://github.com/arimorty/floatingsearchview
+    implementation 'com.github.arimorty:floatingsearchview:2.1.1'
+
+    implementation files('libs/gson-2.4.jar')
+
+    implementation 'com.ufreedom.uikit:FloatingViewLib:1.0.2'
+
+    //网络访问
+    implementation 'com.lzy.net:okhttputils:1.6.5'  //可以单独使用
+
+    //根据网址显示图片+缓存技术
+    implementation 'com.github.bumptech.glide:glide:4.0.0'
+
+    //https://github.com/flavioarfaria/KenBurnsView
+    implementation 'com.flaviofaria:kenburnsview:1.0.7'
+
+    //https://github.com/florent37/ArcLayout
+    implementation 'com.github.florent37:arclayout:1.0.3'
+
+//    implementation 'com.specyci:residemenu:1.6'
+
+    //https://github.com/pinguo-zhouwei/MaterialViewPager
+    implementation('com.github.florent37:materialviewpager:1.1.3@aar') {
+        transitive = true
+    }
+    //加密
+    implementation 'com.google.guava:guava:24.0-android'
+
+    //标签界面
+//    https://github.com/whilu/AndroidTagView
+    implementation 'co.lujun:androidtagview:1.1.7'
+    implementation 'androidx.appcompat:appcompat:1.0.1'
+
+//    implementation 'com.github.jd-alexander:LikeButton:0.2.3'
+
+//    //横竖都可以滚动的容器（并未使用）
+    implementation 'com.kelin.scrollablepanel:library:1.2.0'
+
+//    https://github.com/traex/CalendarListview
+//    implementation 'com.github.traex.calendarlistview:library:1.2.3'
+
+    //日期
+    implementation 'com.haibin:calendarview:3.6.8'
+
+    //日期选择
+    //为了防止不必要的依赖冲突，0.0.3开始需要自行依赖google material库
+    implementation 'com.google.android.material:material:1.1.0'
+    //查看最新版本请前往github，仅支持androidx
+    implementation 'com.github.loperSeven:DateTimePicker:0.1.0'
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="medium">70dp</dimen>
+    <dimen name="large">180dp</dimen>
+    <dimen name="edittextheight">40dp</dimen>
+    <dimen name="edittextwidth">280dp</dimen>
+    <dimen name="customgap">18dp</dimen>
+    <dimen name="smallgap">8dp</dimen>
+    <dimen name="gap">31dp</dimen>
+    <dimen name="starsize">16dp</dimen>
+    <dimen name="displayfontsize">12dp</dimen>
+    <dimen name="gaps1">5dp</dimen>
+    <dimen name="gaps2">12dp</dimen>
+
+    <dimen name="app_title_textSize">14dp</dimen>
+
+    <!--    搜索-->
+    <dimen name="search_view_inset">5dp</dimen>
+    <dimen name="sliding_search_view_header_height">250dp</dimen>
+
+    <dimen name="margin_news">5dp</dimen>
+
+<!--    同一字体大小-->
+    <dimen name="myTextSizeForBig">23sp</dimen>
+    <dimen name="myTextSize">18sp</dimen>
+    <dimen name="myTextSizeForSub">13sp</dimen>
+    <dimen name="myTextSizeForSmallSub">10sp</dimen>
+    <dimen name="titleTixtSize">26sp</dimen>
+
+    <dimen name="marginTop_nav">80dp</dimen>
+</resources>
